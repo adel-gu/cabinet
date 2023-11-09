@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 ruby "3.1.3"
+gem 'sassc-rails'
 gem "rails", "~> 7.1.1"
 gem "sprockets-rails"
 gem "sqlite3", "~> 1.4"

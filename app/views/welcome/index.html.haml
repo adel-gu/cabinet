@@ -1,1 +1,18 @@
-%h1 This is the welcome page
+#banner
+  .banner_content
+    %h1 Cabinet
+    %p Your life's work. Organized, always.
+    %button= link_to "Enter", new_user_registration_path
+
+#callouts
+  .wrapper
+    .callout_inner
+      .callout
+        %h2 Organize
+        %p Tumeric wayfarers pug chartreuse tonx direct trade pabst. Synth authentic tbh, skateboard you probably haven't heard of them letterpress actually sus. Sustainable street art humblebrag edison bulb ugh selvage yuccie.
+
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    %button= link_to "Join Now", new_user_registration_path
